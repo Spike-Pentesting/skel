@@ -1,4 +1,4 @@
-source ~/.lib/antigen/antigen.zsh
+source ~/.libs/antigen/antigen.zsh
 
 antigen bundles <<EOBUNDLES
 
@@ -32,7 +32,7 @@ antigen theme robbyrussell
 
 # Tell antigen that you're done.
 antigen apply
-source ~/.lib/fzf/fzf.zsh
+source ~/.libs/fzf/fzf.zsh
 
 
 screenfetch -A "Gentoo"
