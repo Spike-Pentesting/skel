@@ -9,7 +9,6 @@ perl
 lein
 command-not-found
 sharat87/autoenv
-nojhan/liquidprompt
 Tarrasch/zsh-bd
 vagrant
 tmuxinator
@@ -32,7 +31,7 @@ antigen theme robbyrussell
 
 # Tell antigen that you're done.
 antigen apply
-source ~/.libs/fzf/fzf.zsh
+source ~/.libs/fzf/fzf
 
 
 screenfetch -A "Gentoo"
