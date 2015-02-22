@@ -11,9 +11,7 @@ command-not-found
 sharat87/autoenv
 Tarrasch/zsh-bd
 vagrant
-tmuxinator
 colored-man
-tmux
 # nicoulaj's moar completion files for zsh
 zsh-users/zsh-completions src
 zsh-users/zsh-syntax-highlighting
