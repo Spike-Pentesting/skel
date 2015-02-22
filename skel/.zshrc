@@ -1,26 +1,14 @@
 source ~/.libs/antigen/antigen.zsh
+# Spike Linux default .zshrc
+# Antigen + oh-my-zsh + fzf
 
+# Load the custom bundles
 antigen bundles <<EOBUNDLES
-
-git
-#heroku
-#pip
-perl
-lein
-command-not-found
-sharat87/autoenv
-Tarrasch/zsh-bd
-#vagrant
-colored-man
-# nicoulaj's moar completion files for zsh
-zsh-users/zsh-completions src
-zsh-users/zsh-syntax-highlighting
-extract
-git-extras
-# ZSH port of Fish shell's history search feature.
-#zsh-users/zsh-history-substring-search
-#bobthecow/git-flow-completion
-robbyrussell/oh-my-zsh
+$HOME/.libs/antigen/repos/oh-my-zsh
+$HOME/.libs/antigen/repos/zsh-bd
+$HOME/.libs/antigen/repos/autoenv
+$HOME/.libs/antigen/repos/zsh-completions src
+$HOME/.libs/antigen/repos/zsh-syntax-highlighting
 EOBUNDLES
 
 # Load the theme.
@@ -29,6 +17,5 @@ antigen theme robbyrussell
 # Tell antigen that you're done.
 antigen apply
 source ~/.libs/fzf/fzf
-
 
 screenfetch -A "Gentoo"
