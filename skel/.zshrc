@@ -3,14 +3,14 @@ source ~/.libs/antigen/antigen.zsh
 antigen bundles <<EOBUNDLES
 
 git
-heroku
-pip
+#heroku
+#pip
 perl
 lein
 command-not-found
 sharat87/autoenv
 Tarrasch/zsh-bd
-vagrant
+#vagrant
 colored-man
 # nicoulaj's moar completion files for zsh
 zsh-users/zsh-completions src
@@ -19,9 +19,8 @@ extract
 git-extras
 # ZSH port of Fish shell's history search feature.
 #zsh-users/zsh-history-substring-search
-bobthecow/git-flow-completion
-
-
+#bobthecow/git-flow-completion
+robbyrussell/oh-my-zsh
 EOBUNDLES
 
 # Load the theme.
