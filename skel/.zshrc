@@ -1,10 +1,9 @@
 source ~/.libs/antigen/antigen.zsh
 # Spike Linux default .zshrc
 # Antigen + oh-my-zsh + fzf
-
+antigen use oh-my-zsh
 # Load the custom bundles
 antigen bundles <<EOBUNDLES
-$HOME/.libs/antigen/repos/oh-my-zsh
 $HOME/.libs/antigen/repos/zsh-bd
 $HOME/.libs/antigen/repos/autoenv
 $HOME/.libs/antigen/repos/zsh-completions src
@@ -14,8 +13,10 @@ EOBUNDLES
 # Load the theme.
 antigen theme robbyrussell
 
+# Load fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # Tell antigen that you're done.
 antigen apply
-source ~/.libs/fzf/fzf
 
 screenfetch -A "Gentoo"
