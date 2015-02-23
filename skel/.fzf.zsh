@@ -2,13 +2,13 @@
 # ------------------
 unalias fzf 2> /dev/null
 fzf() {
-  /usr/bin/ruby --disable-gems /home/spikeuser/.libs/fzf/fzf "$@"
+  /usr/bin/ruby --disable-gems $HOME/.libs/fzf/fzf "$@"
 }
 export -f fzf > /dev/null
 
 # Auto-completion
 # ---------------
-[[ $- =~ i ]] && source /home/spikeuser/.libs/fzf/fzf-completion.zsh
+[[ $- =~ i ]] && source $HOME/.libs/fzf/fzf-completion.zsh
 
 # Key bindings
 # ------------
