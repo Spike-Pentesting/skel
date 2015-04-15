@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Icon=/usr/share/spike/pixmaps/spike.png
+Icon=help
 Type=Application
 Exec=/usr/bin/google-chrome-stable "http://www.spike-pentesting.org"
-Name=Spike Pentesting
+Name=Spike Linux
