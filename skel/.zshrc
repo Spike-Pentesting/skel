@@ -22,4 +22,4 @@ EOBUNDLES
 # Tell antigen that you're done.
 antigen apply
 
-screenfetch -A "Gentoo"
+screenfetch -A "Sabayon"
